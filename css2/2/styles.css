@@ -1,0 +1,46 @@
+body {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+  background-color: rgb(95, 159, 211); /* фон блока  меню*/
+  box-shadow: 5px 5px gray; /* тень блока */
+  font-size: 20px; /* размер шрифта */
+  padding: 5px;
+  text-align: center;
+}
+.links {
+  display: inline-block;
+  text-decoration: none; /* убираем подчеркивание ссылок */
+  padding: 5px; /* поля кнопки */
+  background-color: rgb(167, 230, 255); /* фон кнопки */
+  border-bottom: gray; /* цвет рамки */
+  border-bottom-style: groove; /* стиль рамки */
+  border-right-style: ridge;
+}
+.links:hover {
+  background-color: rgb(255, 165, 165); /* фон кнопки при наведении */
+}
+
+.wrap {
+  margin-top: 25px;
+  margin-left: 31em;
+  width: 1000px;
+}
+
+.card {
+  float: left;
+  padding: 10px;
+}
+
+.card img {
+  height: 300px;
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px;
+}
+
+.title {
+  padding: 10px;
+}
